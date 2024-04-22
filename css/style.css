@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Lavishly+Yours&family=Quicksand:wght@300&family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://unpkg.com/aos@next/dist/aos.css');
 
 
 h1{
-    font-family: 'WindSong', cursive;
+    font-family: "Satisfy", cursive;
 }
 h1>span{
     font-family: 'Lavishly Yours', cursive;
