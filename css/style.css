@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://unpkg.com/aos@next/dist/aos.css');
 
 
-h1{
-    font-family: "Satisfy", cursive;
-}
-h1>span{
-    font-family: 'Lavishly Yours', cursive;
+h1,h2{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
 }
 
-h2,h3,h4,h5,h6,p,li{
-    font-family: 'Cormorant Upright', serif;
+h3,h4,h5,h6,p,li{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
 }
