@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Lavishly+Yours&family=Quicksand:wght@300&family=WindSong&display=swap');
-@import url('https://unpkg.com/aos@next/dist/aos.css');
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Great+Vibes&display=swap');
 
 
 h1{
-    font-family: 'WindSong', cursive;
+    font-family: 'Great Vibes', cursive;
 }
 h1>span{
     font-family: 'Lavishly Yours', cursive;
 }
 
 h2,h3,h4,h5,h6,p,li{
-    font-family: 'Cormorant Upright', serif;
+    font-family: 'Cutive', serif;
 }

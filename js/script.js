@@ -3,7 +3,7 @@
 //===
 // VARIABLES
 //===
-const DATE_TARGET = new Date('06/18/2022 07:00 pm');
+const DATE_TARGET = new Date('12/15/2024 02:00 pm');
 // DOM for render
 const SPAN_DAYS = document.querySelector('span#days');
 const SPAN_HOURS = document.querySelector('span#hours');
@@ -62,7 +62,7 @@ const formulario = document.querySelector('#formulario');
 const buttonSubmit = document.querySelector('#submit');
 const urlDesktop = 'https://web.whatsapp.com/';
 const urlMobile = 'whatsapp://';
-const telefono = '524499195945';
+const telefono = '524492587738';
 
 formulario.addEventListener('submit', (event) => {
     event.preventDefault()
@@ -72,7 +72,7 @@ formulario.addEventListener('submit', (event) => {
         let nombre = document.querySelector('#nombre').value
         let invitados = document.querySelector('#invitados').value
         let contenido = document.querySelector('#mensaje-wa').value
-        let mensaje = 'send?phone=' + telefono + '&text=Hola Dulce y Edgar.%0AMi nombre es:%0A' + nombre +'%0AQuiero confirmar %0A'+ invitados + '%0Alugares para su boda %0A'+ '%0AMi mensaje para ustedes es: %0A' + contenido + ''
+        let mensaje = 'send?phone=' + telefono + '&text=Hola Celia.%0ASoy:%0A' + nombre +'%0AQuiero confirmar %0A'+ invitados + '%0Alugares para su boda %0A'+ '%0AMi mensaje para ustedes es: %0A' + contenido + ''
         if (isMobile()) {
             window.open(urlMobile + mensaje, '_blank')
         } else {
