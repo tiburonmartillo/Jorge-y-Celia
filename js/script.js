@@ -72,7 +72,7 @@ formulario.addEventListener('submit', (event) => {
         let nombre = document.querySelector('#nombre').value
         let invitados = document.querySelector('#invitados').value
         let contenido = document.querySelector('#mensaje-wa').value
-        let mensaje = 'send?phone=' + telefono + '&text=Hola Celia.%0ASoy:%0A' + nombre +'%0AQuiero confirmar %0A'+ invitados + '%0Alugares para su boda %0A'+ '%0AMi mensaje para ustedes es: %0A' + contenido + ''
+        let mensaje = 'send?phone=' + telefono + '&text=Hola Celia.%0ASoy%20' + nombre +'%0AQuiero confirmar %0A'+ invitados + '%0Alugares para tu boda %0A'+ '%0AMi mensaje para ustedes es: %0A' + contenido + ''
         if (isMobile()) {
             window.open(urlMobile + mensaje, '_blank')
         } else {
