@@ -5,8 +5,9 @@
 h1{
     font-family: 'Great Vibes', cursive;
 }
-h1>span{
+span{
     font-family: 'Lavishly Yours', cursive;
+    color: #818cf8;
 }
 
 h2,h3,h4,h5,h6,p,li{
@@ -19,3 +20,4 @@ body{
     background: rgb(255,255,255);
 background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 48%, rgba(223,247,247,1) 100%);
 }
+
